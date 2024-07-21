@@ -154,14 +154,16 @@ function displayMovies(movies) {
       movie.title
     }" class="w-full object-cover transition-transform duration-700 group-hover:scale-125 group-hover:rotate-6 image-distort">
   <div class="movie-info absolute inset-0 bg-black bg-opacity-75 p-4 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-    <h3 class="text-lg font-bold text-center transform translate-y-10 group-hover:translate-y-0 group-hover:animate-slideInTop transition-transform duration-500 ease-out">
+    <h3 class="text-2xl py-8 font-bold text-center transform translate-y-10 group-hover:translate-y-0 group-hover:animate-slideInTop transition-transform duration-500 ease-out">
       ${movie.title}
     </h3>
-    <p class="transform translate-x-10 group-hover:translate-x-0 group-hover:animate-slideInLeft transition-transform duration-500 ease-out">
+    <p class="mt-8 transform translate-x-10 group-hover:translate-x-0 group-hover:animate-slideInLeft transition-transform duration-500 ease-out">
       ${movie.overview}
     </p>
-    <p class="mt-2">Release Date: ${movie.release_date}</p>
-    <p class="mt-2">Rating: ${stars}</p>
+    <p class="mt-2 ransform translate-x-10 group-hover:translate-x-0 group-hover:animate-slideInLeft transition-transform duration-500 ease-out">Release Date: ${
+      movie.release_date
+    }</p>
+    <p class="mt-2 ransform translate-x-10 group-hover:translate-x-0 group-hover:animate-slideInLeft transition-transform duration-500 ease-out">Rating: ${stars}</p>
   </div>
 </div>
 
